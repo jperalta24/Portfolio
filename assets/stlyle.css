@@ -1,0 +1,306 @@
+/* imports google font */
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,200;0,300;1,100&display=swap');
+
+/* sets universal selector porperties and values*/
+* { 
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 300;
+}
+
+/* properties and values for ALL h3 elements*/
+h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #33302c; 
+}
+
+/* properties and values for the body element */
+body {
+    width: 100%;
+    background-color: #f5eff5;
+}
+
+header {
+    width: 100%;
+    padding: 5px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    border-bottom: 5px solid #33302c;
+    background-color: darkseagreen;
+    /* creates a liner gradient background */
+    background-image: linear-gradient(
+        #33302c 0%,
+        darkseagreen 100%
+    );
+}
+
+
+header h1 {
+    text-align:center;
+    font-size: 45px;
+    color: #33302c;
+    margin: 0px;
+    width: 25%;
+    background-color: #dcd4dc ; 
+    padding-right: 5px;
+    border-right: 5px solid #33302c;
+    display: flex;
+    justify-content: left;
+
+} 
+
+.nav__links {
+    list-style: none;
+    width: 70%;
+    display: flex;
+    justify-content: flex-end; 
+    padding: 10px;
+    margin: 0px 0;
+}
+ .nav__links li {
+    display: inline-block;
+    border-bottom: 4px solid #33302c ; 
+    margin: 0px 10px;
+    padding: 5px;
+}
+
+.nav__links li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #dcd4dc;
+}
+
+/* adds pseudo class hover with a transition property to nav links */
+.nav__links li a:hover {
+color:#33302c ;
+transition: all .03s ease 0s;
+}
+
+.figure-img {
+   width: 300px;
+   max-height: 300px;
+   margin-left: 25%;
+   border: 5px solid #33302c;
+   border-top: none;
+   border-bottom: none;
+}
+
+figure {
+    /* creates a liner gradient background */
+    background-image: linear-gradient(
+        darkseagreen 0%,
+        #33302c 100%    
+       );
+    background-color: #dcd4dc;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid #33302c;
+    position: relative;
+}
+
+figure h2 {
+    background-color: none;
+    color: #dcd4dc;
+    width: 20%;
+    height: 5%;
+}
+    
+.wrapper {
+        padding-right: 5%;
+}
+
+.card-one {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.card-one {
+    padding: 2% 0 5% 0
+} 
+
+.card-one h3 {
+   text-align: center; 
+   border-right: 5px solid #33302c;
+   width: 44%;
+   padding: 5px;
+   margin-left: 35%;
+}
+
+/* creates a grid display for card-two class */
+.card-two {
+   margin-left: 26%;
+   padding-left:7%;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(4, 8vw);
+   gap: 5px;
+   margin-bottom: 5%;
+   border-left: 5px solid #33302c;
+}
+
+#work h3 {
+    width: 27%;
+    text-align: right;
+    padding-right: 5px;
+
+}
+
+/* creates a transition effect to the projects class  */
+.card-two .projects {
+    border-radius: 8px;
+    transition: all .05s ease-in-out;
+}
+
+.projects:hover {
+    box-shadow: inset 8px 8px 8px
+    #dcd4dc, 0 0 15px
+    #33302c;
+}
+
+.projects {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.p1 {
+   grid-column-start: 1;
+   grid-column-end: 5; 
+   grid-row-start: 1;
+   grid-row-end: 3;
+}
+
+/* adds text block to p1 class */
+.p1{
+    position: relative;
+}
+/* text block positioning */
+.bottom-left {
+    width: 15%;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    border:2px solid #dcd4dc;
+    background-color: #33302c;
+    color: #dcd4dc;
+    text-align: center;
+}
+
+/* positioning for grid content */
+.p2 {
+   grid-column-start: 1;
+   grid-column-end: 3; 
+   grid-row-start: 3;
+   grid-row-end: 4;
+}
+
+.p3 {
+   grid-column-start: 3;
+   grid-column-end: 5; 
+   grid-row-start: 3;
+   grid-row-end: 4;  
+}
+
+.p4 {
+   grid-column-start: 1;
+   grid-column-end: 3; 
+   grid-row-start: 4;
+   grid-row-end: 5;   
+}
+
+.p5 {
+    grid-column-start: 3;
+   grid-column-end: 5; 
+   grid-row-start: 4;
+   grid-row-end: 5;   
+}
+
+.card-three {
+    display: inline-flex;
+    padding-right: 5%;
+    width: 100%;
+    margin: 2% 0%;
+}
+
+.card-three h3 {
+   text-align: center; 
+   border-right: 5px solid #33302c;
+   width: 25%;
+   padding: 3px;
+   margin-left: 2%
+}
+
+.card-three ul {
+    width: 75%;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0% 8%;
+    
+}
+
+.card-three li {
+    list-style: none;
+    text-decoration: none;
+    font-weight: 900;
+    color: #33302c;
+}
+
+.card-three a {
+    color:#33302c;
+    font-weight: 600;
+}
+
+/* adds responsive design to webpage  */
+@media screen and (max-width: 992px) {
+    header {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    header h1 {
+        width:fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 2rem;
+    }
+}
+    
+@media screen and (max-width: 768px) {
+    header {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    header h1 {
+        width:fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 2rem;
+    }
+
+    .card-one {
+        display: inline-flex;
+        padding-right: 5%;
+        width: 100%;
+        margin: 2% 0%;
+    } 
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    header h1 {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1rem;
+    }    
+}
+   
+    

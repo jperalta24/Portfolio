@@ -11,11 +11,11 @@ I learned the importance of using "display:grid" to add better structure to my s
 -CSS
 
 ## Usage
-Click the navigation links located at the top right corner of the [webpage] () to view my work and contact info.
+Click the navigation links located at the top right corner of the [webpage](https://jperalta24.github.io/Portfolio/) to view my work and contact info.
 
 ### Contact
-Jonathan Peralta - example.com
-Project Link: 
+-Jonathan Peralta - example.com
+-Project Link: https://jperalta24.github.io/Portfolio/
 
 ### Acknowledgments
 -[Free code camp/how to create an image gallery with css grid](https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/)

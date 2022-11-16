@@ -269,6 +269,11 @@ figure h2 {
 }
     
 @media screen and (max-width: 768px) {
+    body {
+        width: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+    }
     header {
         display: inline-flex;
         flex-direction: column;
@@ -282,14 +287,26 @@ figure h2 {
     }
 
     .card-one {
+        width: fit-content;
         display: inline-flex;
+        flex-wrap: wrap;
         padding-right: 5%;
         width: 100%;
         margin: 2% 0%;
     } 
+
+    .card-one h3 {
+        border: none;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    body {
+        width: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     header {
         display: inline-flex;
         flex-direction: column;

@@ -4,11 +4,12 @@
 Portfolios are a great way show potential employers your skill set. I built this portfolio from the ground up to showcase who I am, my work, and contact information. 
 I learned the importance of using "display:grid" to add better structure to my styled content.
 
-![](/Images/Deployed%20Portfolio.jpg)
+![](/Images/New2023-03-18%20170357.png)
 
 ### Built With
--HTML
--CSS
+- HTML
+- CSS
+- JavaScript
 
 ## Usage
 Click the navigation links located at the top right corner of the [webpage](https://jperalta24.github.io/Portfolio/) to view my work and contact info.
